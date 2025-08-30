@@ -1,11 +1,9 @@
 export const projects = [
   {
-    // To use your own project photo, just place it in /public/assets and write the link as I did: eg: /assets/my_image.jpg
-    // Of course it's best to convert your image file type to webp for better performance on the web!
-    // Or just use a cloud image hosting platform like cloudinary and use the image url from there.
     ImageURL: "/assets/ChatApp.png", //
     Title: "Breeze",
-    Description: "A full-stack Real Time Chat WebApp",
+    Description:
+      "Breeze is a modern full-stack real-time chat web application that enables seamless communication between users. Featuring instant messaging, user authentication, and a responsive design.",
     Technologies: [
       "react",
       "javascript",
@@ -20,9 +18,25 @@ export const projects = [
     Demo: "https://fullstack-chat-app-2yqw.onrender.com/", // Optional!
   },
   {
+    ImageURL: "/assets/WhoIs.png", //
+    Title: "WhoIs",
+    Description:
+      "A lightning-fast, professional-grade domain lookup app built with React, Vite, and Tailwind CSS. Instantly query domain registration, DNS, and historical data using the WhoisXML API, with support for both JSON and XML responses.",
+    Technologies: [
+      "react",
+      "javascript",
+      "vite",
+      "tailwind",
+      "fast-xml-parser",
+      "API integration",
+    ],
+    Source: "https://github.com/se-akshay/WhoIs", // Optional!
+    Demo: "https://who-is-sigma.vercel.app/", // Optional!
+  },
+  {
     ImageURL: "/assets/CozyCribs.png",
     Title: "CozyCribs",
-    Description: "A full-stack Airbnb Clone.",
+    Description: "CozyCribs is a full-stack Airbnb clone designed for seamless property rental experiences. Users can browse & list their properties with an intuitive interface powered by Bootstrap and EJS.",
     Technologies: [
       "Javascript",
       "bootstrap",
